@@ -3,7 +3,7 @@ import Body from "../../typography/body";
 
 export default function Footer() {
   return (
-    <footer className="flex items-center justify-center flex-col w-full h-96 bg-gray-darkest">
+    <footer className="flex items-center justify-center flex-col w-full h-96 bg-gray-darkest p-5 text-center">
       <div className="flex flex-col items-center justify-center space-y-4 pt-20">
       <div className="font-bold text-4xl">
         NiranjanUx: For Penguins. By Penguins.
