@@ -1,10 +1,11 @@
 import AppLayout from "../components/layout/appLayout";
 import Article from "../components/article";
+import Hero from "../components/sections/hero";
 
 export default function Home() {
   return (
     <AppLayout>
-      <div className="text-5xl font-bold text-center p-10">Hackathon Template</div>
+      <Hero />
       <Article
         label="OUR MISSION"
         title="Computers for everyone. 

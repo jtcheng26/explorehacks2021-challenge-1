@@ -7,7 +7,7 @@ export default function Navbar({ scroll }) {
     <nav
       className={`flex flex-row items-center backdrop-blur-xl ${
         scroll && "shadow-2xl"
-      } fixed top-0 right-0 left-0`}
+      } fixed top-0 right-0 left-0 space-x-9 px-4 z-50`}
     >
       <Navlink href="/">
         <Image src="/assets/LogoFull.png" width="30" height="40" alt="logo" />
@@ -18,7 +18,7 @@ export default function Navbar({ scroll }) {
       <Navlink href="/#community">Community</Navlink>
       <Navlink href="/#contact">Contact</Navlink>
       <div className="mr-5">
-        <Button href="/#join">Join the Colony</Button>
+        <Button href="/#join" outlined>Join the Colony</Button>
       </div>
     </nav>
   );

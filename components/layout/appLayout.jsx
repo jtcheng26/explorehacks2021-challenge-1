@@ -24,10 +24,7 @@ export default function AppLayout({ children, title }) {
         <link rel="icon" href="/favicon.ico" />
       </Head>
       <Navbar scroll={scroll} />
-
-      <main className="h-screen p-5 pt-48">
-        {children}
-      </main>
+      <main className="h-full">{children}</main>
       <Footer />
     </div>
   );
