@@ -2,7 +2,7 @@ import Body from "./typography/body";
 import Heading from "./typography/heading";
 import Label from "./typography/label";
 
-export default function Article({ label, title, content }) {
+export default function Article({ children, label, title, content }) {
   return (
     <div className="sm:p-4">
       <div className="pb-1">
@@ -11,7 +11,10 @@ export default function Article({ label, title, content }) {
       <div className="pb-7">
         <Heading>{title}</Heading>
       </div>
-      <Body>{content}</Body>
+      <div className="space-y-7">
+        <Body>{content}</Body>
+        {children}
+      </div>
     </div>
   );
 }
