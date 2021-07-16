@@ -1,14 +1,20 @@
+import Button from "../../button";
+import Body from "../../typography/body";
+
 export default function Footer() {
   return (
-    <footer className="flex items-center justify-center w-full h-24 border-t">
-      <a
-        className="flex items-center justify-center"
-        href="https://vercel.com?utm_source=create-next-app&utm_medium=default-template&utm_campaign=create-next-app"
-        target="_blank"
-        rel="noopener noreferrer"
-      >
-        Hackathon Template
-      </a>
+    <footer className="flex items-center justify-center flex-col w-full h-96 bg-gray-darkest">
+      <div className="flex flex-col items-center justify-center space-y-4 pt-20">
+      <div className="font-bold text-4xl">
+        NiranjanUx: For Penguins. By Penguins.
+      </div>
+      <Body>Have a question or concern? Send us an email down below!</Body>
+      <Button>Support</Button>
+      </div>
+      <div className="flex-grow" />
+      <div className="font-light text-gray-light text-sm pb-3">
+        Copyright © 2021 NiranjanUx LLC.
+      </div>
     </footer>
   );
 }

@@ -1,5 +1,6 @@
 import Navlink from "./navlink";
 import Image from "next/image";
+import Button from "../../button";
 
 export default function Navbar({ scroll }) {
   return (
@@ -16,8 +17,8 @@ export default function Navbar({ scroll }) {
       <Navlink href="/#solution">Solution</Navlink>
       <Navlink href="/#community">Community</Navlink>
       <Navlink href="/#contact">Contact</Navlink>
-      <div className="bg-brand-default rounded-lg py-2 mr-5 hover:bg-brand-dark">
-        <Navlink href="/#join">Join the Colony</Navlink>
+      <div className="mr-5">
+        <Button href="/#join">Join the Colony</Button>
       </div>
     </nav>
   );
