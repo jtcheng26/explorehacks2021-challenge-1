@@ -9,6 +9,7 @@ module.exports = {
       colors: {
         brand: {
           default: "#EAA53A",
+          dark: "#BF8730",
         },
         gray: {
           darkest: "#0A0F1B",

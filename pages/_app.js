@@ -15,7 +15,6 @@ export default function MyApp({ Component, pageProps }) {
         <meta name="keywords" content="Keywords" />
         <title>NiranjanUx</title>
 
-        <link rel="manifest" href="/manifest.json" />
         <link
           href="/icons/icon-16x16.png"
           rel="icon"
