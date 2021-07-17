@@ -5,7 +5,7 @@ import Body from "../typography/body";
 export default function Mission() {
   return (
     <div
-      className="p-5 md:p-16 flex flex-col md:flex-row pb-0"
+      className="p-5 md:px-16 pt-44 flex flex-col md:flex-row pb-0"
       id="mission"
       data-aos="fade-up"
       data-aos-duration="2000"

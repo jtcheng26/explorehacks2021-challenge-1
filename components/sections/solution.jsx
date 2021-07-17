@@ -5,7 +5,7 @@ import Body from "../typography/body";
 export default function Solution() {
   return (
     <div
-      className="px-5 py-16 md:p-16 flex flex-col md:flex-row relative md:pt-44 lg:pt-60 pb-20"
+      className="px-5 py-24 md:px-16 flex flex-col md:flex-row relative md:pt-44 lg:pt-60 pb-20"
       id="solution"
       data-aos="fade-up"
       data-aos-duration="2000"
