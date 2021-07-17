@@ -4,7 +4,10 @@ import Body from "../typography/body";
 
 export default function Solution() {
   return (
-    <div className="p-16 flex flex-col md:flex-row relative md:pt-44 lg:pt-60 pb-20" id="solution">
+    <div
+      className="px-5 py-16 md:p-16 flex flex-col md:flex-row relative md:pt-44 lg:pt-60 pb-20"
+      id="solution"
+    >
       <div className="absolute top-0 right-0 left-0 b-10 h-full bg-gray-default opacity-30 z-10" />
       <div className="flex items-center justify-center md:float-left p-10 z-20">
         <Image
@@ -19,12 +22,9 @@ export default function Solution() {
         <Article
           label="OUR SOLUTION"
           title="An exclusive kernel. Specially made for penguins."
-          content="Here at NiranjanUx, we are fighting the digital divide through our exclusive Linux kernel specially engineered for penguins. No penguin left behind."
+          content="Here at NiranjanUx, we are fighting the digital divide through our exclusive Linux kernel specially engineered for penguins."
         >
-          <Body>
-            Our mission is to ensure that computers are accessible to everyone, even
-            penguins.
-          </Body>
+          <Body>No penguin left behind.</Body>
         </Article>
       </div>
     </div>
