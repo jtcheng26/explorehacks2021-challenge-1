@@ -4,8 +4,8 @@ import Image from "next/image";
 
 export default function Hero() {
   return (
-    <div className="px-5 sm:px-20 pt-56 h-full pb-30 md:pb-64 mb-10" id="hero">
-      <div className="absolute -right-20 top-36 z-20 sm:right-10 lg:right-20 xl:right-32">
+    <div className="px-5 sm:px-20 pt-56 h-full pb-30 md:pb-64 mb-10 relative overflow-x-hidden" id="hero">
+      <div className="absolute -right-24 top-36 z-20 sm:right-10 lg:right-20 xl:right-32 overflow-x-hidden">
         <Image src="/assets/LogoFull.png" width="270" height="324" alt="logo" />
       </div>
       <div className="absolute top-0 right-0 left-0 b-10 h-full bg-gray-default opacity-30 z-10" />
@@ -14,7 +14,7 @@ export default function Hero() {
         data-aos="fade-up"
         data-aos-duration="2000"
       >
-        <div className="font-bold text-7xl">
+        <div className="font-bold text-6xl sm:text-7xl">
           The future of computing is{" "}
           <span className="text-brand-default">penguin.</span>
         </div>
