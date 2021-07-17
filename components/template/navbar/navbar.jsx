@@ -15,7 +15,7 @@ export default function Navbar({ scroll }) {
       <div className="flex-grow" />
       <Navlink href="/#mission">Mission</Navlink>
       <Navlink href="/#solution">Solution</Navlink>
-      <Navlink href="/#community">Community</Navlink>
+      <Navlink href="/#stories">Community</Navlink>
       <Navlink href="/#contact">Contact</Navlink>
       <div className="mr-5">
         <Button href="/#join" outlined>Join the Colony</Button>

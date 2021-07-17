@@ -7,7 +7,7 @@ export default function Card({ label, title, href, img }) {
     <div className="w-full md:w-72 xl:w-96 shadow-2xl rounded h-56 relative group">
       <Link href={href}>
         <a className="flex flex-col h-full">
-          <div className="absolute top-0 right-0 left-0 b-10 h-full bg-gray-darker group-hover:bg-gray-dark z-20 opacity-75" />
+          <div className="absolute top-0 right-0 left-0 b-10 h-full bg-gray-darker group-hover:bg-gray-dark z-20 opacity-75 transition-colors rounded" />
           <div className="absolute top-0 right-0 left-0 h-full z-10">
             {img && (
               <Image src={img} alt="card image" layout="fill" className="rounded object-cover" />
@@ -20,7 +20,7 @@ export default function Card({ label, title, href, img }) {
             <div className="text-xl font-bold leading-relaxed">{title}</div>
           </div>
           <div className="flex-grow" />
-          <div className="bg-gray-default flex items-center p-4 py-2 font-semibold group-hover:bg-gray-light cursor-pointer rounded-b z-30">
+          <div className="bg-gray-default flex items-center p-4 py-2 font-semibold group-hover:bg-gray-light cursor-pointer rounded-b z-30 transition-colors">
             Read More
             <div className="flex-grow" />
             <ChevronRightIcon width="30" height="30" />

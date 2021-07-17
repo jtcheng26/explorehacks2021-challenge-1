@@ -3,6 +3,7 @@ import Hero from "../components/sections/hero";
 import Mission from "../components/sections/mission";
 import Solution from "../components/sections/solution";
 import Community from "../components/sections/community";
+import Join from "../components/sections/join";
 
 export default function Home() {
   return (
@@ -11,6 +12,7 @@ export default function Home() {
       <Mission />
       <Solution />
       <Community />
+      <Join />
     </AppLayout>
   );
 }
