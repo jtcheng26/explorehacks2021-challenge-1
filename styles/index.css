@@ -7,11 +7,6 @@
 }
 
 /* source: https://codepen.io/elevaunt/pen/VvKdVa */
-svg {
-  width: 100px;
-  display: block;
-  margin: 40px auto 0;
-}
 
 .path {
   stroke-dasharray: 1000;

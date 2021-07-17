@@ -17,8 +17,8 @@ export default function Button({ children, href, dark, outlined, onClick }) {
             </span>
           </Navlink>
         ) : (
-          <div className="font-bold text-lg transition-colors hover:text-brand-default py-2">
-            <span className={`${outlined && "font-normal text-brand-default"}`}>
+          <div className={`font-bold text-lg transition-colors py-2 ${!dark && "hover:text-brand-default"}`}>
+            <span className={`${outlined && "font-normal text-brand-default"} ${dark && "text-gray-darker"}`}>
               {children}
             </span>
           </div>

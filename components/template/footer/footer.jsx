@@ -10,7 +10,12 @@ export default function Footer() {
         </div>
         <Body>Have a question or concern? Send us an email down below!</Body>
         <div id="contact">
-          <Button dark>Support</Button>
+          <Button
+            dark
+            onClick={() => (window.location.href = "mailto:support@niranjanux.com")}
+          >
+            Support
+          </Button>
         </div>
       </div>
       <div className="flex-grow" />

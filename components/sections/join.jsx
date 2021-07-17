@@ -4,7 +4,12 @@ import Form from "../form";
 
 export default function Join() {
   return (
-    <div className="p-5 py-24 md:p-16 flex flex-col lg:flex-row md:pb-44" id="join">
+    <div
+      className="p-5 py-24 md:p-16 flex flex-col lg:flex-row md:pb-44"
+      id="join"
+      data-aos="fade-up"
+      data-aos-duration="2000"
+    >
       <div className="lg:w-3/5">
         <Article
           label="JOIN OUR TEAM"

@@ -8,7 +8,6 @@ export default function AppLayout({ children, title }) {
   const [scroll, setScroll] = useState(false);
   useEffect(() => {
     if (typeof window !== "undefined") {
-      console.log("bruh");
       const listener = window.addEventListener("scroll", () => {
         if (!scroll && window.pageYOffset !== 0) setScroll(true);
         else if (scroll && window.pageYOffset === 0) setScroll(false);

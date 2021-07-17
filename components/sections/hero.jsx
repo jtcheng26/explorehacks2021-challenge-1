@@ -9,7 +9,11 @@ export default function Hero() {
         <Image src="/assets/LogoFull.png" width="270" height="324" alt="logo" />
       </div>
       <div className="absolute top-0 right-0 left-0 b-10 h-full bg-gray-default opacity-30 z-10" />
-      <div className="space-y-7 w-11/12 sm:w-9/12 relative z-30 pb-24 md:pb-0">
+      <div
+        className="space-y-7 w-11/12 sm:w-9/12 relative z-30 pb-24 md:pb-0"
+        data-aos="fade-up"
+        data-aos-duration="2000"
+      >
         <div className="font-bold text-7xl">
           The future of computing is{" "}
           <span className="text-brand-default">penguin.</span>

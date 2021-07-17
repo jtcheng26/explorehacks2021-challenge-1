@@ -23,10 +23,15 @@ export default function Form() {
   const [submitted, setSubmitted] = useState(false);
   const inputClass =
     "bg-gray-darker focus:outline-none p-1 px-3 text-gray-light text-lg rounded w-full focus:bg-gray-default transition-colors";
-  
+
   /* source: https://codepen.io/elevaunt/pen/VvKdVa */
-    const good = (
-    <svg version="1.1" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 130.2 130.2">
+  const good = (
+    <svg
+      version="1.1"
+      xmlns="http://www.w3.org/2000/svg"
+      viewBox="0 0 130.2 130.2"
+      className="w-20"
+    >
       <circle
         className="path circle"
         fill="none"
@@ -49,7 +54,7 @@ export default function Form() {
     </svg>
   );
   return (
-    <form className="w-full p-8 bg-gray-dark rounded">
+    <form className="p-8 bg-gray-dark rounded max-w-2xl">
       <div className="space-y-2 block">
         <div className="font-bold text-lg pb-4">NiranjanUx Registration</div>
         <input className={inputClass} placeholder="First name"></input>
@@ -71,18 +76,12 @@ export default function Form() {
           </div>
         </div>
         {!submitted ? (
-          <Button
-            dark
-            onClick={() => {
-              console.log("click");
-              setSubmitted(true);
-            }}
-          >
+          <Button dark onClick={() => setSubmitted(true)}>
             Submit
           </Button>
         ) : (
           <div className="flex items-center">
-            <div className="-translate-y-5">{good}</div>
+            {good}
             <div className="text-gray-light pl-5">
               We have received your registration details. Expect an email from us
               soon with further information!

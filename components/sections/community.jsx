@@ -3,7 +3,12 @@ import Card from "../card";
 
 export default function Community() {
   return (
-    <div className="p-5 py-24 md:p-16 flex flex-col pb-0" id="stories">
+    <div
+      className="p-5 py-24 md:p-16 flex flex-col pb-0"
+      id="stories"
+      data-aos="fade-up"
+      data-aos-duration="2000"
+    >
       <div className="">
         <Article
           label="OUR COMMUNITY"

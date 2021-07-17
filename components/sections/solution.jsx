@@ -7,6 +7,8 @@ export default function Solution() {
     <div
       className="px-5 py-16 md:p-16 flex flex-col md:flex-row relative md:pt-44 lg:pt-60 pb-20"
       id="solution"
+      data-aos="fade-up"
+      data-aos-duration="2000"
     >
       <div className="absolute top-0 right-0 left-0 b-10 h-full bg-gray-default opacity-30 z-10" />
       <div className="flex items-center justify-center md:float-left p-10 z-20">

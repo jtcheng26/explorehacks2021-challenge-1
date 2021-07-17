@@ -5,7 +5,15 @@ import Solution from "../components/sections/solution";
 import Community from "../components/sections/community";
 import Join from "../components/sections/join";
 
+import AOS from "aos";
+import "aos/dist/aos.css"; // You can also use <link> for styles
+import { useEffect } from "react";
+
 export default function Home() {
+  useEffect(() => {
+    console.log("init lol");
+    AOS.init();
+  });
   return (
     <AppLayout>
       <Hero />
