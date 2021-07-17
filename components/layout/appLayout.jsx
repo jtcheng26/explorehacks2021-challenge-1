@@ -19,8 +19,8 @@ export default function AppLayout({ children, title }) {
   return (
     <div className="flex flex-col min-h-screen bg-gray-darker text-gray-lightest">
       <Head>
-        <title>{title || "Hackathon Template"}</title>
-        <link rel="icon" href="/favicon.ico" />
+        <title>{title || "ExploreHacks 2021 Challenge 1"}</title>
+        <link rel="icon" href="/assets/LogoFull.png" />
       </Head>
       <Navbar scroll={scroll} />
       <main className="h-full">{children}</main>

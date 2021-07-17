@@ -15,21 +15,6 @@ export default function MyApp({ Component, pageProps }) {
         <meta name="description" content="Description" />
         <meta name="keywords" content="Keywords" />
         <title>NiranjanUx</title>
-
-        <link
-          href="/icons/icon-16x16.png"
-          rel="icon"
-          type="image/png"
-          sizes="16x16"
-        />
-        <link
-          href="/icons/icon-32x32.png"
-          rel="icon"
-          type="image/png"
-          sizes="32x32"
-        />
-        <link rel="apple-touch-icon" href="/icons/icon-512x512.png" />
-        <meta name="theme-color" content="#317EFB" />
       </Head>
       <Component {...pageProps} />
     </>
