@@ -10,7 +10,7 @@ export default function Footer() {
         </div>
         <Body>Have a question or concern? Send us an email down below!</Body>
         <div id="contact">
-          <Button>Support</Button>
+          <Button dark>Support</Button>
         </div>
       </div>
       <div className="flex-grow" />

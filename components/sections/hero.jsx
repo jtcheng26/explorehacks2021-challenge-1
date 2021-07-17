@@ -4,7 +4,7 @@ import Image from "next/image";
 
 export default function Hero() {
   return (
-    <div className="px-5 sm:px-20 pt-56 h-full pb-20 lg:pb-64 mb-10" id="hero">
+    <div className="px-5 sm:px-20 pt-56 h-full pb-30 md:pb-64 mb-10" id="hero">
       <div className="absolute -right-20 top-36 z-20 sm:right-10 lg:right-20 xl:right-32">
         <Image src="/assets/LogoFull.png" width="270" height="324" alt="logo" />
       </div>
